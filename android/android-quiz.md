@@ -1097,3 +1097,90 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
        }
   }
 ```
+
+#### Q72. Different languages have different rules for grammatical agreement with quantity. To support the following two strings in multiple languages in your app, what is the ideal resource definition?
+
+```
+"You have 1 day remaining"
+"You have 2 days remaining"
+```
+
+- [ ] A
+
+```
+<plurals name="trial_days_left">
+	<plural quantity="one">You have %1$d day remaining</plural>
+	<plural quantity="other">You have %1$d days remaining</plural>
+</plurals>
+```
+
+- [ ] B
+
+```
+<string name="trial_days_left_one">You have %1$d day remaining</string>
+<string name="trial_days_left_other">You have %1$d days remaining</string>
+```
+
+- [ ] C
+
+```
+<plurals name="trial_days_left">
+	<item quantity="one">You have %1$d day remaining</item>
+	<item quantity="other">You have %1$d days remaining</item>
+</plurals>
+```
+
+- [ ] D
+
+```
+<string name="trial_days_left">
+	<plural quantity="one">You have %1$d day remaining</plural>
+	<plural quantity="other">You have %1$d days remaining</plural>
+</string>
+```
+
+#### Q73. Given the string resource below, which code snippet is valid?
+
+```
+    <string name="upload_photo_notification">%1$d of 2$d photos uploaded</string>
+```
+
+- [ ] A
+
+```
+val string: String = getString(
+	R.id.upload_photo_notification,
+	"2",
+	"5"
+)
+```
+
+- [ ] B
+
+```
+val string: String = getString(
+	R.id.upload_photo_notification,
+	2,
+	5
+)
+```
+
+- [ ] C
+
+```
+val string: String = getString(
+	R.string.upload_photo_notification,
+	2,
+	5
+)
+```
+
+- [ ] D
+
+```
+val string: String = getString(
+	R.string.upload_photo_notification,
+	"2",
+	"5"
+)
+```

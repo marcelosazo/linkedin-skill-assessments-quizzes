@@ -1097,3 +1097,42 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
        }
   }
 ```
+
+#### Q72. Different languages have different rules for grammatical agreement with quantity. To support the following two strings in multiple languages in your app, what is the ideal resource definition?
+
+"You have 1 day remaining"
+"You have 2 days remaining"
+
+- [ ] A
+
+```
+<plurals name="trial days left">
+	<plural quantity="one">You have %1$d day remaining</plural>
+	<plural quantity="other">You have %1$d days remaining</plural>
+</plurals>
+```
+
+- [ ] B
+
+```
+<string name="trial days left one">You have %1$d day remaining</string>
+<string name="trial days left other">You have %1$d days remaining</string>
+```
+
+- [ ] C
+
+```
+<plurals name="trial days left">
+	<item quantity="one">You have %1$d day remaining</item>
+	<item quantity="other">You have %1$d days remaining</item>
+</plurals>
+```
+
+- [ ] D
+
+```
+<string name="trial days left">
+	<plural quantity="one">You have %1$d day remaining</plural>
+	<plural quantity="other">You have %1$d days remaining</plural>
+</string>
+```

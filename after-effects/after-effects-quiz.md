@@ -339,16 +339,46 @@
 - [ ] A, B, C
 - [x] B, C, E
 
-### Q45. In After Effects, what does the "Motion Sketch" tool allow you to do?
+#### Q45. In After Effects, what does the "Motion Sketch" tool allow you to do?
 
 - [ ] Apply color grading to footage
 - [ ] Create 3D shapes and objects
 - [ ] Record voiceovers for your compositions
 - [x] Animate layers by manually drawing their motion paths
 
-### Q46. When working with 3D layers in After Effects, which axis mode allows you to make changes based on the orientation of the Composition panel?
+#### Q46. When working with 3D layers in After Effects, which axis mode allows you to make changes based on the orientation of the Composition panel?
 
 - [ ] Local axis
 - [x] World axis
 - [ ] Global axis
 - [ ] View axis
+
+#### Q47. How do you make a template that specifies a file's format and codec for easy reuse?
+
+- [ ] Save a Render Settings template.
+- [ ] Save an Output Module template.
+- [ ] Sync your settings with Creative Cloud.
+- [ ] Save a Composition Settings template.
+
+#### Q48. Which mode should you use for masks when you want to keep the lowest transparency value where multiple masks intersect?
+
+- [ ] Lighten
+- [ ] Intersect
+- [ ] Darken
+- [ ] Subtract
+
+#### Q49. How can you control what preview image is seen for a Motion Graphics template?
+
+- [ ] You cannot change this option.
+- [ ] Add a graphic file to the first frame with a single frame duration.
+- [ ] The first keyframe determines what is shown.
+- [ ] Set the poster frame.
+
+#### Q50. If you want to darken the left edge of the globe with a new light, what should you do?
+
+<img width="526" alt="Screen Shot 2023-12-19 at 09 24 09" src="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/assets/114348525/09aed0cf-1fce-4e9b-bede-cdb4e66a5156">
+
+- [ ] Increase the Falloff value for the new light.
+- [ ] Set the color of the light to black.
+- [ ] Set the Intensity value to a negative strength.
+- [ ] Use a Parallel light.

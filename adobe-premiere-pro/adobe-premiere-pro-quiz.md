@@ -391,3 +391,39 @@ E. Ellipse
 - [ ] layouts
 - [ ] panel presets
 - [ ] events
+
+#### Q49. Which effects category is not available under the Video Effects disclosure triangle in the Effects panel?
+
+- [ ] Utility
+- [ ] Stylize
+- [ ] Color Grading
+- [ ] Time
+
+#### Q50. Which panel can you use to organize and store group assets for online collaboration?
+
+- [ ] Project panel
+- [ ] Media Browser panel
+- [ ] Assets panel
+- [ ] Libraries panel
+
+#### Q51. You have already rendered the effects used in your project. Which option allows you to avoid re-rendering your effects when you use the Project
+Manager?
+
+- [ ] Select Include Audio Conform Files.
+- [ ] Select Include Preview Files.
+- [ ] You must always re-render after moving a project.
+- [ ] Deselect Exclude Unused Clips.
+
+#### Q52. Which statement is true about the Appearance preferences?
+
+- [ ] You can change the highlight color.
+- [ ] The default brightness is the halfway position between darker and lighter.
+- [ ] You can set the top bar of windows to a custom accent color.
+- [ ] You can adjust the intensity of the Focus Indicator to help easily identify which window is active.
+
+#### Q53. Where can you rename an audio track?
+
+- [ ] both in the Audio Mixer and Timeline
+- [ ] Audio track names are locked.
+- [ ] in the Timeline only
+- [ ] in the Audio Mixer
